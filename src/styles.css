@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+nav a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+image-editor {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input.ng-dirty.ng-invalid,
+select.ng-dirty.ng-invalid {
+    border-left: 2px solid red;
+}
+
+input.ng-valid,
+select.ng-valid {
+    border-left: 2px solid green;
+}
+.error {
+    font-size: 10px;
+    color: red;
+}
